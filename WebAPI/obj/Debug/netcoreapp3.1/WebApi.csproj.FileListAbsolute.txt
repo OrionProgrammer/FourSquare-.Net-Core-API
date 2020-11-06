@@ -1,0 +1,150 @@
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\WebApi.exe
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\WebApi.deps.json
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\WebApi.runtimeconfig.json
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\WebApi.runtimeconfig.dev.json
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\WebApi.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\WebApi.pdb
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.csprojAssemblyReference.cache
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfoInputs.cache
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfo.cs
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.csproj.CopyComplete
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\staticwebassets\WebApi.StaticWebAssets.xml
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.dll
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.pdb
+D:\Projects\Net Core Projects\aspnet-core-3-registration-login-api-master\aspnet-core-3-registration-login-api-master\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.exe
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.deps.json
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.runtimeconfig.json
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.runtimeconfig.dev.json
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.pdb
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\SharpSquare.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.Entities.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.Services.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.Services.pdb
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\SharpSquare.pdb
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\bin\Debug\netcoreapp3.1\WebApi.Entities.pdb
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.csprojAssemblyReference.cache
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfoInputs.cache
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.AssemblyInfo.cs
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.csproj.CopyComplete
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebApi.StaticWebAssets.xml
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.dll
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.pdb
+D:\Projects\Net Core Projects\Immedia Assessment\WebAPI\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache

@@ -1,0 +1,22 @@
+USE [FourSquare Places]
+GO
+
+/****** Object:  Table [dbo].[Location]    Script Date: 2020/11/06 22:42:28 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Location](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Value] [nvarchar](max) NULL,
+	[IsCorOrdinates] [bit] NULL,
+ CONSTRAINT [PK_Location] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+

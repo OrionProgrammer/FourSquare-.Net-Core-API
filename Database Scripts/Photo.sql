@@ -1,0 +1,23 @@
+USE [FourSquare Places]
+GO
+
+/****** Object:  Table [dbo].[Photo]    Script Date: 2020/11/06 22:43:38 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Photo](
+	[Id] [nvarchar](50) NOT NULL,
+	[VenueId] [nvarchar](50) NULL,
+	[Image] [image] NULL,
+	[ImageCredit] [nvarchar](max) NULL,
+ CONSTRAINT [PK_Photo] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
