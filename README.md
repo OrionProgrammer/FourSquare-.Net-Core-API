@@ -18,7 +18,7 @@
   Note: There is an image request limit for a free FourSquare account. Limited to 50 images per day. So if you do 3 tests of 15 landmarks for a given city, then your limit will be reached. 
 7. Make sure to do a clean and build
 8. Open a new command terminal in Visual studio
-9. Make sure your path is 'D:\Projects\Net Core Projects\FourSquare API .Net Core 3.1\WebAPI>'. If you not already in WebApi, then type 'cd WebApi'
+9. Make sure your path is pointing to the WebApi project. If you not already in WebApi, then type 'cd WebApi'
 10. Type 'dotnet run' to host the api
 
 # End Points
