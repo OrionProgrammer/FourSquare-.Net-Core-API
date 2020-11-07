@@ -42,3 +42,4 @@ You can test the end points using Postman. You may download Postman here > https
 4. Fetch location by User from local database
   <br/>End point: http://localhost:4000/landmarks/user-location/{userid}
   <br/>Update the parameter with a userid
+  <br/>Note: This method required authentication. To test via Postman, you may decorate the method with [AllowAnonymous] and rebuild the solution. Else pass a vali auth token     in the header
