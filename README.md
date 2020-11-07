@@ -33,4 +33,4 @@ You can test the end points using Postman. You may download Postman here > https
 
 3. Fetch photo details
   <br/>End point: http://localhost:4000/landmarks/photo/{0}
-  <br/>Update the parameter with a photo id that relates to FourSquare. eg.  http://localhost:4000/landmarks/photo/{0}
+  <br/>Update the parameter with a photo id that relates to FourSquare
