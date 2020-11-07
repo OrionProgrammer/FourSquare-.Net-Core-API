@@ -8,5 +8,9 @@ namespace WebApi.Services.Interfaces
         Location Create(Location location);
 
         IEnumerable<Location> GetAll();
+
+        void CreateUserLocation(int userId, int locationId);
+
+        IEnumerable<Location> GetLocationsByUser(int userId);
     }
 }
