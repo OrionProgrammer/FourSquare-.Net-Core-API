@@ -26,5 +26,6 @@ namespace WebApi.Entities.Helpers
         public DbSet<Location> Location { get; set; }
         public DbSet<Venue> Venue { get; set; }
         public DbSet<Photo> Photo { get; set; }
+        public DbSet<UserLocation> UserLocation { get; set; }
     }
 }
