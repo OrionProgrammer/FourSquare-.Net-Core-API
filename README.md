@@ -3,8 +3,10 @@
 # Features
 1. ASP.Net Core 3.1
 2. Code in C#
-3. JWT Authentication
-4. SignalR
+3. JWT Authentication for user registrations and login from client app
+4. SignalR for fast delivery of image data to client app
+5. Search by city name or GPS coordinates
+6. Asynchronous Tasks
 
 # How to run the project
 
@@ -27,7 +29,7 @@ You can test the end points using Postman. You may download Postman here > https
 
 1. Fetch landmarks by a given location 
   <br/>End point: http://localhost:4000/landmarks/search/landmark/{0} 
-  <br/>Update the parameter with your city of choice eg: Durban.
+  <br/>Update the parameter with your city of choice eg: Durban or a set of GPS coordinates eg: 29.8587, 31.0218
   <br/>Note: Testing this end point via Postman or any other API test software, will return a status code of '200 OK', however, you will not see the results as the reults are sent back to the client side app using SignalR
 2. Fetch all locations
  <br/>End point: http://localhost:4000/landmarks/locations 
