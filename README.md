@@ -26,10 +26,11 @@ You can test the end points using Postman. You may download Postman here > https
 
 1. Fetch landmarks by a given location 
   End point: http://localhost:4000/landmarks/search/landmark/{0} 
-  Update the parameter with your city of choice eg: Durban.  There is a slight issue with searching with 2 word names, like Durban North. Will resolve the issue and update later.   Note: Testing this end point via Postman or any other API test software, will return a status code of '200 OK', however, you will not see the results as the reults are sent back to the client side app using SignalR
+  Update the parameter with your city of choice eg: Durban.  There is a slight issue with searching with 2 word names, like Durban North. Will resolve the issue and update    later.   
+  Note: Testing this end point via Postman or any other API test software, will return a status code of '200 OK', however, you will not see the results as the reults are sent back to the client side app using SignalR
 2. Fetch all locations
   End point: http://localhost:4000/landmarks/locations 
 
 3. Fetch photo details
   End point: http://localhost:4000/landmarks/photo/{0}
-  update the parameter with a photo id that relates to FourSquare. eg.  http://localhost:4000/landmarks/photo/{0}
+  Update the parameter with a photo id that relates to FourSquare. eg.  http://localhost:4000/landmarks/photo/{0}
