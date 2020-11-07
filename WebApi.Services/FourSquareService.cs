@@ -1,4 +1,4 @@
-﻿using FourSquare.SharpSquare.Core;
+using FourSquare.SharpSquare.Core;
 using FourSquare.SharpSquare.Entities;
 using System.Collections.Generic;
 using WebApi.Services.Helpers;
@@ -50,6 +50,11 @@ namespace WebApi.Services
                 });
 
             return photos;
+        }
+
+        public Photo GetPhotoDetails(string photoId)
+        {
+            return sharpSquare.GetPhoto(photoId);
         }
     }
 }
