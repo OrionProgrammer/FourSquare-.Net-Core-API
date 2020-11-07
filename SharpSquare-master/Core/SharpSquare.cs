@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Net;
 using System.Text;
 using System.IO;
@@ -103,6 +103,8 @@ namespace FourSquare.SharpSquare.Core
                 serializedParameters = "&" + SerializeDictionary(parameters);
             }
 
+            unauthenticated = true;
+
             string oauthToken = "";
             if (unauthenticated)
             {
@@ -113,7 +115,9 @@ namespace FourSquare.SharpSquare.Core
                 oauthToken = string.Format("oauth_token={0}", accessToken);
             }
 
-            string json = Request(string.Format("{0}{1}?{2}{3}&v={4}", apiUrl, endpoint, oauthToken, serializedParameters, apiVersion), HttpMethod.GET);
+            string u = string.Format("{0}{1}?{2}{3}&v={4}", apiUrl, endpoint, oauthToken, serializedParameters, apiVersion);
+
+            string json = Request(u, HttpMethod.GET);
             FourSquareSingleResponse<T> fourSquareResponse = JsonConvert.DeserializeObject<FourSquareSingleResponse<T>>(json);
             return fourSquareResponse;
         }
@@ -193,8 +197,9 @@ namespace FourSquare.SharpSquare.Core
             {
                 oauthToken = string.Format("oauth_token={0}", accessToken);
             }
-            string rUrl = string.Format("{0}{1}?{2}{3}&v={4}", apiUrl, endpoint, oauthToken, serializedParameters, apiVersion);
-            string json = Request(rUrl, HttpMethod.GET);
+
+            string u = string.Format("{0}{1}?{2}{3}&v={4}", apiUrl, endpoint, oauthToken, serializedParameters, apiVersion);
+            string json = Request(u, HttpMethod.GET);
             var fourSquareResponse = JsonConvert.DeserializeObject<FourSquareMultipleVenuesResponse<T>>(json);
             return fourSquareResponse;
         }
@@ -521,17 +526,6 @@ namespace FourSquare.SharpSquare.Core
         public List<Venue> SearchVenues(Dictionary<string, string> parameters)
         {
             return GetMultipleVenues<Venue>("/venues/search", parameters, true).response.venues;
-        }
-
-        /// <summary>
-        /// Added by Asheen
-        /// Works similar to SearchVenues above. However, explore provides slightly better results
-        /// </summary>
-        /// <param name="parameters"></param>
-        /// <returns></returns>
-        public List<Venue> ExploreVenues(Dictionary<string, string> parameters)
-        {
-            return GetMultipleVenues<Venue>("/venues/explore", parameters, true).response.venues;
         }
 
         /// <summary>
