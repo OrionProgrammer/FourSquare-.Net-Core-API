@@ -50,8 +50,10 @@ namespace WebApi.Controllers
             _fourSquareService = new FourSquareService(fourSquareAuthModel);
         }
 
-        [HttpGet("search/{query}/{location}")]
-        public async Task<IActionResult> Search(string query, string location)
+        #region End Points
+
+        [HttpGet("search/{query}/{location}/{userid}")]
+        public async Task<IActionResult> Search(string query, string location, int userid)
         {
             if (string.IsNullOrEmpty(location))
                 return BadRequest(new { message = "Location is required" });
@@ -62,12 +64,19 @@ namespace WebApi.Controllers
             //save location asynchronously so save time
             var locationId = await Task.Run(() => SaveLocation(location, isCoOrds));
 
+            //check if userid supplied, then save location for user
+            if (userid != 0)
+            {
+                //await not applied as we don't need to wait for any result
+                Task.Run(() => _locationService.CreateUserLocation(userid, locationId));
+            }
+
             //search for venues. I left the query parm blank as I was experiencing poor results with 'landmark' query for both search and explore.
             //I decided not to spend too much time tweaking the FourSquare results and rather focus more on developing the API
             var venues = _fourSquareService.SearchVenues(location, "", isCoOrds);
 
             //prepare venue photos for client
-            var photos = PrepareVenuePhotoModel(venues, locationId);
+            var photos = PrepareVenuePhotoModelTest(venues, locationId);
 
             var venueList = _mapper.Map<List<Venue>, List<VenueModel>>(venues);
             var venueDBList = _mapper.Map<List<VenueModel>, List<WebApi.Entities.Venue>>(venueList);
@@ -91,7 +100,6 @@ namespace WebApi.Controllers
         public async Task<IActionResult> GetAllLocations()
         {
             var locations = await Task.Run(() => _locationService.GetAll());
-            //var model = _mapper.Map<IList<LocationModel>>(locations);
             return Ok(locations);
         }
 
@@ -127,6 +135,16 @@ namespace WebApi.Controllers
             }
         }
 
+        [HttpGet("user-location/{userid}")]
+        public async Task<IActionResult> GetUserLocations(int userid)
+        {
+            var locations = await Task.Run(() => _locationService.GetLocationsByUser(userid));
+            return Ok(locations);
+        }
+
+        #endregion
+
+        #region Helpers
 
         /// <summary>
         /// prepares a data model of the photo for a list of venues and sends each photo back to the client using signal r
@@ -183,7 +201,38 @@ namespace WebApi.Controllers
 
             return photoModels;
         }
-        
+
+
+        //just to test without foursquare
+        private List<PhotoModel> PrepareVenuePhotoModelTest(List<Venue> venues, int locationId)
+        {
+            List<PhotoModel> photoModels = new List<PhotoModel>();
+
+            foreach (var venue in venues)
+            {
+                PhotoModel photoModel = new PhotoModel();
+
+                photoModel.VenueName = venue.name;
+                photoModel.VenueId = venue.id;
+                photoModel.LocationId = locationId;
+
+                using (var webClient = new WebClient())
+                {
+                    byte[] imageBytes = webClient.DownloadData("https://fastly.4sqi.net/img/general/1440x1920/412105192_eiNJVudpwkVtZn9rtu8M1dCSq_4UwE-xvey-ErOh7i0.jpg");
+                    photoModel.Image = imageBytes;
+                }
+
+                photoModel.Id = Guid.NewGuid().ToString();
+                photoModel.ImageCredit = "Asheen Singh";
+
+                photoModels.Add(photoModel);
+
+                _hub.Clients.All.SendAsync("transferphotodata", photoModel);
+            }
+
+            return photoModels;
+        }
+
         /// <summary>
         /// saves the location to local database
         /// </summary>
@@ -212,5 +261,7 @@ namespace WebApi.Controllers
             _venueService.CreateMultiple(venues, locationId);
            return true;
         }
+
+        #endregion
     }
 }
