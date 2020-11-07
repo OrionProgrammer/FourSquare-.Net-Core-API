@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using WebApi.Entities;
@@ -29,6 +29,11 @@ namespace WebApi.Services
                 return existing;
 
             return location;
+        }
+
+        public IEnumerable<Location> GetAll()
+        {
+            return _context.Location.Where(l => l.IsCorOrdinates == false);
         }
     }
 }
