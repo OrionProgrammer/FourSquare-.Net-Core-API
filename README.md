@@ -41,5 +41,10 @@ You can test the end points using Postman. You may download Postman here > https
   
 4. Fetch location by User from local database
   <br/>End point [Get]: http://localhost:4000/landmarks/user-location/{userid}
-  <br/>Update the parameter with a userid
+  <br/>Update the parameter {userid} with a userid
+  <br/>Note: This method requires authentication. To test via Postman, you may decorate the method with [AllowAnonymous] and rebuild the solution, else pass a valid auth token     in the header
+  
+5. Fetch saved imnages by location from local database
+  <br/>End point [Get]: http://localhost:4000/landmarks/search-saved-images/{location}
+  <br/>Update the parameter {location} with a location eg: Durban
   <br/>Note: This method requires authentication. To test via Postman, you may decorate the method with [AllowAnonymous] and rebuild the solution, else pass a valid auth token     in the header
