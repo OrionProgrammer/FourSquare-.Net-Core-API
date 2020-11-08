@@ -27,19 +27,19 @@
 You can test the end points using Postman. You may download Postman here > https://www.postman.com/.  Open Postman and test the end points listed below.
 
 1. Fetch landmarks by a given location 
-  <br/>End point: http://localhost:4000/landmarks/search/landmark/{location}/{userid}
+  <br/>End point [Get]: http://localhost:4000/landmarks/search/landmark/{location}/{userid}
   <br/>Update the parameter {location} with your city of choice eg: Durban or a set of GPS coordinates eg: 29.8587, 31.0218
   <br/>Update the parameter {userid} with a userId. Supply 0 for anonymous user 
   <br/>Note: Testing this end point via Postman or any other API test software, will return a status code of '200 OK', however, you will not see the results as the reults are sent back to the client side app using SignalR
 
 2. Fetch all locations
- <br/>End point: http://localhost:4000/landmarks/locations 
+ <br/>End point [Get]: http://localhost:4000/landmarks/locations 
 
 3. Fetch photo details
-  <br/>End point: http://localhost:4000/landmarks/photo/{id}
+  <br/>End point [Get]: http://localhost:4000/landmarks/photo/{id}
   <br/>Update the parameter with a photo id that relates to FourSquare
   
 4. Fetch location by User from local database
-  <br/>End point: http://localhost:4000/landmarks/user-location/{userid}
+  <br/>End point [Get]: http://localhost:4000/landmarks/user-location/{userid}
   <br/>Update the parameter with a userid
   <br/>Note: This method requires authentication. To test via Postman, you may decorate the method with [AllowAnonymous] and rebuild the solution, else pass a vali auth token     in the header
