@@ -64,8 +64,8 @@ namespace WebApi.Services
         public IEnumerable<Location> GetLocationsByUser(int userId)
         {
             var locations = from l in _context.Location
-                            from u in _context.UserLocation
-                            where l.Id == u.LocationId && u.UserId == userId
+                            join u in _context.UserLocation on l.Id equals u.LocationId
+                            where u.UserId == userId
                             select new Location
                             {
                                 Id = l.Id,
