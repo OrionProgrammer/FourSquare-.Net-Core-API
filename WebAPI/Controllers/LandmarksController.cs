@@ -149,7 +149,8 @@ namespace WebApi.Controllers
         [HttpGet("search-saved-images/{location}")]
         public async Task<IActionResult> SearchSavedImages(string location)
         {
-            return Ok();
+            var photos = await Task.Run(() => _photoService.GetPhotosByLocation(location));
+            return Ok(photos);
         }
 
         #endregion
