@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using WebApi.Entities;
 
 namespace WebApi.Services.Interfaces
@@ -6,5 +6,6 @@ namespace WebApi.Services.Interfaces
     public interface IPhotoService
     {
         void CreateMultiple(List<Photo> photos);
+        IEnumerable<Photo> GetPhotosByLocation(string location);
     }
 }
