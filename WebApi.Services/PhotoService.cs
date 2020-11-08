@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using WebApi.Entities;
@@ -30,6 +30,22 @@ namespace WebApi.Services
             }
 
             _context.SaveChanges();
+        }
+
+        public IEnumerable<Photo> GetPhotosByLocation(string location)
+        {
+            var photos = from l in _context.Location
+                      join v in _context.Venue on l.Id equals v.LocationId
+                      join p in _context.Photo on v.Id equals p.VenueId
+                      select new Photo 
+                      { 
+                          Id = p.Id,
+                          ImageCredit = p.ImageCredit,
+                          Image = p.Image,
+                          VenueId = p.VenueId
+                      };
+
+            return photos;
         }
     }
 }
