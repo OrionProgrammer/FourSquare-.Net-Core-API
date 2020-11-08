@@ -78,7 +78,7 @@ namespace WebApi.Controllers
             var venues = _fourSquareService.SearchVenues(location, "", isCoOrds);
 
             //prepare venue photos for client
-            var photos = PrepareVenuePhotoModelTest(venues, locationId);
+            var photos = PrepareVenuePhotoModel(venues, locationId);
 
             var venueList = _mapper.Map<List<Venue>, List<VenueModel>>(venues);
             var venueDBList = _mapper.Map<List<VenueModel>, List<WebApi.Entities.Venue>>(venueList);
@@ -156,7 +156,7 @@ namespace WebApi.Controllers
 
         #region Helpers
 
-        //just to test without foursquare
+        //just to test without foursquare images
         private List<PhotoModel> PrepareVenuePhotoModelTest(List<Venue> venues, int locationId)
         {
             List<PhotoModel> photoModels = new List<PhotoModel>();
