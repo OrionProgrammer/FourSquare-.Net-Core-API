@@ -1,5 +1,6 @@
 using AutoMapper;
 using FourSquare.SharpSquare.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Options;
@@ -16,6 +17,7 @@ using WebApi.Services.Interfaces;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [Route("[controller]")]
     [ApiController]
     public class LandmarksController : ControllerBase
@@ -51,9 +53,9 @@ namespace WebApi.Controllers
         }
 
         #region End Points
-
+        [AllowAnonymous]
         [HttpGet("search/{query}/{location}/{userid}")]
-        public async Task<IActionResult> Search(string query, string location, int userid)
+        public async Task<IActionResult> Search(string query, string location, int userid = 0)
         {
             if (string.IsNullOrEmpty(location))
                 return BadRequest(new { message = "Location is required" });
@@ -96,6 +98,7 @@ namespace WebApi.Controllers
         /// list of all locations saved in database
         /// </summary>
         /// <returns></returns>
+        [AllowAnonymous]
         [HttpGet("locations")]
         public async Task<IActionResult> GetAllLocations()
         {
@@ -108,6 +111,7 @@ namespace WebApi.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [AllowAnonymous]
         [HttpGet("photo/{id}")]
         public async Task<IActionResult> GetPhotoDetails(string id)
         {
@@ -142,9 +146,45 @@ namespace WebApi.Controllers
             return Ok(locations);
         }
 
+        [HttpGet("search-saved-images/{location}")]
+        public async Task<IActionResult> SearchSavedImages(string location)
+        {
+            return Ok();
+        }
+
         #endregion
 
         #region Helpers
+
+        //just to test without foursquare
+        private List<PhotoModel> PrepareVenuePhotoModelTest(List<Venue> venues, int locationId)
+        {
+            List<PhotoModel> photoModels = new List<PhotoModel>();
+
+            foreach (var venue in venues)
+            {
+                PhotoModel photoModel = new PhotoModel();
+
+                photoModel.VenueName = venue.name;
+                photoModel.VenueId = venue.id;
+                photoModel.LocationId = locationId;
+
+                using (var webClient = new WebClient())
+                {
+                    byte[] imageBytes = webClient.DownloadData("https://fastly.4sqi.net/img/general/1440x1920/412105192_eiNJVudpwkVtZn9rtu8M1dCSq_4UwE-xvey-ErOh7i0.jpg");
+                    photoModel.Image = imageBytes;
+                }
+
+                photoModel.Id = Guid.NewGuid().ToString();
+                photoModel.ImageCredit = "Asheen Singh";
+
+                photoModels.Add(photoModel);
+
+                _hub.Clients.All.SendAsync("transferphotodata", photoModel);
+            }
+
+            return photoModels;
+        }
 
         /// <summary>
         /// prepares a data model of the photo for a list of venues and sends each photo back to the client using signal r
@@ -202,36 +242,6 @@ namespace WebApi.Controllers
             return photoModels;
         }
 
-
-        //just to test without foursquare
-        private List<PhotoModel> PrepareVenuePhotoModelTest(List<Venue> venues, int locationId)
-        {
-            List<PhotoModel> photoModels = new List<PhotoModel>();
-
-            foreach (var venue in venues)
-            {
-                PhotoModel photoModel = new PhotoModel();
-
-                photoModel.VenueName = venue.name;
-                photoModel.VenueId = venue.id;
-                photoModel.LocationId = locationId;
-
-                using (var webClient = new WebClient())
-                {
-                    byte[] imageBytes = webClient.DownloadData("https://fastly.4sqi.net/img/general/1440x1920/412105192_eiNJVudpwkVtZn9rtu8M1dCSq_4UwE-xvey-ErOh7i0.jpg");
-                    photoModel.Image = imageBytes;
-                }
-
-                photoModel.Id = Guid.NewGuid().ToString();
-                photoModel.ImageCredit = "Asheen Singh";
-
-                photoModels.Add(photoModel);
-
-                _hub.Clients.All.SendAsync("transferphotodata", photoModel);
-            }
-
-            return photoModels;
-        }
 
         /// <summary>
         /// saves the location to local database
