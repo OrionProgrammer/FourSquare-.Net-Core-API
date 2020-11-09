@@ -196,9 +196,11 @@ namespace WebApi.Controllers
         private List<PhotoModel> PrepareVenuePhotoModel(List<Venue> venues, int locationId)
         {
             List<PhotoModel> photoModels = new List<PhotoModel>();
-
+            int count = 0;
             foreach (var venue in venues)
             {
+                if (count == 1)
+                    return photoModels;
                 //fecth photos for each venue
                 var photos = _fourSquareService.GetPhotosByVenue(venue.id);
                 byte[] imageBytes;
@@ -223,7 +225,8 @@ namespace WebApi.Controllers
                 }
 
                 PhotoModel photoModel = new PhotoModel();
-
+                
+                photoModel.Image = imageBytes;
                 photoModel.VenueName = venue.name;
                 photoModel.VenueId = venue.id;
                 photoModel.LocationId = locationId;
@@ -238,6 +241,7 @@ namespace WebApi.Controllers
                 _hub.Clients.All.SendAsync("transferphotodata", photoModel);
 
                 photoModels.Add(photoModel);
+                count++;
             }
 
             return photoModels;
